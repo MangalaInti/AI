@@ -1,0 +1,69 @@
+Below are some of the reasons with effectiveness of Linear Algebra:
+
+Linear Algebra makes scientific computing easy as most complex equations can be converted into linear equations with help of vectors and matrices, where vectors can be viewed as single dimensional matrices.
+
+Linear Algebra helps represent large sets of data as matrices enabling us to better visualize the given data.
+
+All the operations/processes performed on matrices are batch processes. This means, millions of data points can be processed simultaneously instead of processing each data point individually. 
+
+Machine Learning: 
+
+Traditional Programming Vs Machine Learning
+
+n Traditional programming, we feed DATA i.e., Input and PROGRAM i.e., logic and run it on the machine to produce the desired output.
+
+In Machine Learning, we feed in Input and Output, run it on the machine during training. The machine creates its own program i.e., logic which can be evaluated while testing.
+
+Types of Machine Learning
+
+1. Supervised Learning is used in applications when labelled historical data predicts likely future events.
+
+2. Unsupervised Learning is used when historical data is not labelled and is used to discover unknown patterns in the data.
+
+3. Semi-supervised Learning is used in same applications as supervised learning where both labelled and unlabeled data is used for training.
+
+4. Reinforcement Learning works by discovering which action yields maximum reward through trial and error. It is often used in robotics, gaming and    navigation.
+
+Supervised ML Learning Phase : During this phase A machine is taught to identify various fruits by building a model with the help of images.
+Supervised Machine learning Testing phase : A new set of images are given to this model as test data to classify different fruits
+If the name is right, then there is a green tick within a small box or else a cross mark in red if the name does not match the fruit.
+
+
+Supervised machine learning model: Evaluation phase
+A model should always be evaluated to know whether it will do a good job of predicting the target, given new data points. One way to do so is to compute the ratio of correctly classified test data points to the total number of test data points available, thus determining the accuracy of the model.
+
+In the example, out of eight test images, the machine was able to classify six images correctly and two images incorrectly. Hence, the accuracy of this supervised machine learning model is 6/8 i.e., 75%.
+
+Supervised ML types : 
+
+a. Classification: Used to predict discrete results. 
+b. Regression :  Used to predict continuous numeric results
+
+
+So, in supervised machine learning:
+
+In the first step, the machine can be trained with known data so that it learns something from it.
+In the second step, the machine is expected to utilize the knowledge it gained in the previous step and classify a new unknown data point.
+In the third step, the model is evaluated based on how accurately it has classified the unknown data.
+
+
+
+So, in unsupervised machine learning:
+
+In the first step, some variables or parameters are fixed based on which the machine will arrange the given data (in our example, we have taken "colour" as the parameter).
+In the second step, the machine groups similar data points together. As per the example, fruits of the same colour are grouped together.
+
+
+Comparison between Supervised learning and Unsupervised learning
+
+Supervised Learning                                                Unsupervised Learning
+
+1. Input data is provided to the model along with          1. Input data only provided to the model
+   output 
+   
+2. Labeled data is used to train Supervised learning       2. Unlabeled data used to train unsupervised learning
+   algorithms    
+3. Number of classes are know                              3. Number of classes are unknown 
+
+4. Applications are medical diagnosis, spam detection,     4. Applications are recommender systems, customer segmentation etc
+    hand writing detection
